@@ -1,0 +1,98 @@
+body {
+  background-color: #444;
+  color: white;
+  margin: 20px;
+  font: 32px "Century Gothic", Futura, sans-serif;
+  border-radius: 0px;
+  background: linear-gradient(145deg, #f0f0f0, #dad9d9);
+  box-shadow: 40px 40px 71px #eaeaea, -40px -40px 71px #ffffff;
+}
+
+.game {
+  font-size: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+  background: #e0e0e0;
+  box-shadow: 33px 33px 66px #b3b3b3, -33px -33px 66px #ffffff;
+}
+
+.game-logo {
+  border-radius: 100px;
+  color: #ffffff;
+  text-shadow: inset 5px 5px 10px #b5b5b5, inset -5px -5px 10px #ffffff;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.board-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#react-js-logo {
+  padding: 0 10px 10px 40px;
+  width: 210px;
+  height: 100px;
+  border-radius: 100px;
+  color: #ffffff;
+  text-shadow: inset 5px 5px 10px #b5b5b5, inset -5px -5px 10px #ffffff;
+}
+
+.square {
+  background-color: #444;
+  color: white;
+  border: 1px solid #999;
+  padding: 0;
+  font-size: 84px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 0px;
+  background: #e0e0e0;
+  box-shadow: inset 7px 7px 15px #676767, inset -7px -7px 15px #ffffff;
+}
+
+.square:hover {
+  outline: none;
+  background-color: #2221;
+}
+
+.status {
+  margin: 20px;
+  font-size: 26px;
+  text-align: center;
+  border-radius: 100px;
+  color: #ffffff;
+  text-shadow: inset 5px 5px 10px #b5b5b5, inset -5px -5px 10px #ffffff;
+}
+
+.start {
+  border-radius: 100px;
+  color: #ffffff;
+  text-shadow: inset 5px 5px 10px #b5b5b5, inset -5px -5px 10px #ffffff;
+}
+
+.btn {
+  border-radius: 5px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  border-color: white;
+  color: white;
+  margin: 20px;
+  font: 18px "Century Gothic", Futura, sans-serif;
+}
+
+.footer-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyrights {
+  color: #ffffff;
+  text-shadow: inset 5px 5px 10px #b5b5b5, inset -5px -5px 10px #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+
+}
